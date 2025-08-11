@@ -1,0 +1,30 @@
+# Configuration du site
+title: Blog de Julien
+description: Blog personnel sur la tech, l'automatisation et mes découvertes
+author: Julien
+email: 
+url: "" # L'URL sera ajoutée après le déploiement
+
+# Configuration de Jekyll
+permalink: /:year/:month/:day/:title/
+timezone: Europe/Paris
+
+# Plugins GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configuration du thème
+theme: minima
+
+# Paramètres du build
+markdown: kramdown
+highlighter: rouge
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
