@@ -3,7 +3,7 @@ title: Blog de Julien
 description: Blog personnel sur la tech, l'automatisation et mes découvertes
 author: Julien
 email: 
-url: "" # L'URL sera ajoutée après le déploiement
+url: "https://blog.jstrider.ovh" # URL du blog
 
 # Configuration de Jekyll
 permalink: /:year/:month/:day/:title/
@@ -28,3 +28,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - .gitignore
+  - vendor/
+  - .bundle/
+  - node_modules/
