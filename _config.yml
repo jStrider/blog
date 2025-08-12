@@ -2,8 +2,8 @@
 title: Blog de Julien
 description: Blog personnel sur la tech, l'automatisation et mes découvertes
 author: Julien
-email: 
-url: "" # L'URL sera ajoutée après le déploiement
+email: contact@jstrider.ovh
+url: "https://blog.jstrider.ovh" # L'URL sera ajoutée après le déploiement
 
 # Configuration de Jekyll
 permalink: /:year/:month/:day/:title/
