@@ -18,5 +18,3 @@ Vous trouverez ici mes réflexions sur :
 N'hésitez pas à explorer mes articles et à me contacter si vous avez des questions !
 
 ---
-
-*Blog propulsé par Jekyll et hébergé sur GitHub Pages*
