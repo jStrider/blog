@@ -41,12 +41,39 @@ J'aime bien **Notion**. J'essaie autant que je peux de l'utiliser pour organiser
 
 Ça m'a permis de m'introduire à la méthode de Tiago Forte : **PARA** (pour Project, Area, Resources, Archive).
 
-Voici le workflow que j'ai mis en place, mon premier workflow (ne vous moquez pas, j'en suis plutôt fier)
+## Mon premier workflow
 
-Il s'agit d'un workflow qui fait la chose suivante : 
+Voici le workflow que j'ai mis en place, mon premier workflow (ne vous moquez pas, j'en suis plutôt fier) :
 
-Tous les matins a 7h30, il m'envoie un recap des projets non terminés et des taches de la journée.
+Il s'agit d'un workflow qui fait la chose suivante : tous les matins à 7h30, il m'envoie un récap des projets non terminés et des tâches de la journée.
 
-Comment? Avec plusieurs nodes qui permettent de faire tout un tas d'actions très poussés.
+### Comment ça fonctionne ?
 
-[..]
+L'interface de n8n est plutôt intuitive. Le fonctionnement est simple : on met en place un node trigger (déclencheur) qui, une fois activé, exécute tous les nodes auxquels il est lié en transmettant les données des nodes précédents (souvent au format JSON).
+
+![Workflow n8n - Récupération des projets et tâches](./../images/n8n/n8n_workflow_1.png)
+
+### Les étapes du workflow
+
+Sans entrer dans les détails techniques, voici ce que fait mon workflow :
+
+1. **Trigger Schedule** : Se déclenche tous les matins à 7h30
+2. **Notion Database** : Récupère les projets non terminés
+3. **Notion Database** : Récupère les tâches du jour
+4. **OpenAI** : Envoie les données à GPT-3.5 pour générer un message personnalisé
+5. **Email** : M'envoie le récapitulatif par mail
+
+## Conclusion
+
+Le workflow n'est pas compliqué et fait exactement ce qu'on lui demande. C'est très satisfaisant de voir chaque matin la pipeline s'activer automatiquement pour m'envoyer un rappel par mail.
+
+Même si je ne sais pas encore si j'ai vraiment besoin de ce rappel quotidien, cette expérience m'a permis de comprendre l'intérêt de n8n et comment l'utiliser. Maintenant que j'ai le produit, il ne me reste plus qu'à trouver le besoin qu'il comblera (quitte à le créer **gasp**).
+
+## Prochaines étapes
+
+J'ai quelques idées d'automatisation en tête :
+- Synchronisation automatique entre mes différents outils
+- Rappels intelligents basés sur mes habitudes
+- Génération automatique de rapports hebdomadaires
+
+L'avantage de n8n, c'est qu'on peut commencer simple et complexifier progressivement selon ses besoins.
