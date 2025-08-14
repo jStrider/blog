@@ -51,7 +51,7 @@ Il s'agit d'un workflow qui fait la chose suivante : tous les matins à 7h30, il
 
 L'interface de n8n est plutôt intuitive. Le fonctionnement est simple : on met en place un node trigger (déclencheur) qui, une fois activé, exécute tous les nodes auxquels il est lié en transmettant les données des nodes précédents (souvent au format JSON).
 
-![Workflow n8n - Récupération des projets et tâches](./../images/n8n/n8n_workflow_1.png)
+![Workflow n8n - Récupération des projets et tâches](/images/n8n/n8n_workflow_1.png)
 
 ### Les étapes du workflow
 

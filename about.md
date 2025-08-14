@@ -15,11 +15,10 @@ Sur ce blog, je partage mes expériences avec :
 - Le développement et l'infrastructure
 - Les outils no-code/low-code
 - Mes projets personnels et expérimentations
+- outils de developpement orienté IA
 
 ## Contact
 
 N'hésitez pas à me contacter si vous avez des questions ou des suggestions !
 
----
-
-*Ce blog est propulsé par Jekyll et hébergé sur GitHub Pages.*
+mail: contact@jstrider.ovh
